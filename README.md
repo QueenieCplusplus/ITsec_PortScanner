@@ -3,6 +3,7 @@
 
 # Port Scanner Code
 
+  https://github.com/QueenieCplusplus/ITsec_PortScanner/blob/master/PortScanner.js
 
       targetHostScanner: function(callback, targetHost, ports_str, timeout){
 
