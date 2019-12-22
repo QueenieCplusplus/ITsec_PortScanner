@@ -7,4 +7,17 @@
 
 網路的連接埠禁止，可設定在 port no. 如：22、25、110、143 等。如需要檢視禁止的清單， Crome 可參考 net_util.cc，可查看哪些連接埠被使用者禁止。然而，此方法不適合用在閉源的瀏覽器，如 IE。
 
+# C/S 
+
+網路軟體分成客戶端與伺服器端此兩大元件：
+
+
+     Client App   Ports Range {...}    <---->  Port    Server App
+         
+                  XMLHttpRequests              Listeners in Multi-Threads
+         
+         
+         
+               
+
 
