@@ -12,7 +12,9 @@
 網路軟體分成客戶端與伺服器端此兩大元件：
 
 
-     Client App   Ports Range {...}    <---->  Port    Server App
+                                       IP Tables forwards Requests to Bundling Listening Port
+
+     Client App  Ports Range {...}  <---->  Port    Server App
          
                   XMLHttpRequests              Listeners in Multi-Threads
          
