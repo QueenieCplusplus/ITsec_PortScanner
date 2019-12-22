@@ -3,6 +3,18 @@
 
 # Port Scanner Code
 
+
+      targetHostScanner: function(callback, targetHost, ports_str, timeout){
+
+             var ports = ports_str.splits(",");
+
+             for(index = 0; index < ports.length; index++){
+
+                 this.portScanner(callback, targetHost, ports[index], timeout);
+
+             };
+
+       }
  
 
 # Ports Banned
